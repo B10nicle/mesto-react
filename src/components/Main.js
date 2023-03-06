@@ -30,13 +30,11 @@ function Main({onEditProfile, onAddPlace, onEditAvatar, onCardClick}) {
     return (
         <main className="main">
             <section className="profile">
-                <div className="profile__avatar-container">
-                    <button className="profile__avatar-edit-button" type="button" onClick={() => {
-                        onEditAvatar(true)
-                    }}></button>
-                    <img className="profile__avatar" style={{backgroundImage: `url(${userAvatar})`}}
-                         alt="аватар пользователя"/>
-                </div>
+                <button className="profile__avatar-edit-button" type="button" onClick={() => {
+                    onEditAvatar(true)
+                }}><img className="profile__avatar"
+                        style={{backgroundImage: `url(${userAvatar})`}}
+                        /></button>
                 <div className="profile__info">
                     <h1 className="profile__name">{userName}</h1>
                     <button className="profile__edit-button pointer" type="button" onClick={() => {
