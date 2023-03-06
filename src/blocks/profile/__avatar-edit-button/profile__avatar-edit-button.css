@@ -1,0 +1,17 @@
+.profile__avatar-button {
+    background-image: url('../../../images/pencil.svg');
+    background-color: rgba(0, 0, 0, 0.8);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    visibility: hidden;
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    margin: auto;
+    opacity: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
