@@ -39,7 +39,8 @@ function Main({onEditProfile, onAddPlace, onEditAvatar, onCardClick}) {
                         }}>
                         <img src={userAvatar}
                              className="profile__avatar"
-                             alt="аватар пользователя"/>
+                             alt="аватар пользователя"
+                        />
                     </button>
                 </div>
                 <div className="profile__info">
