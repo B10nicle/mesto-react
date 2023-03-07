@@ -61,7 +61,8 @@ function Main({onEditProfile, onAddPlace, onEditAvatar, onCardClick}) {
                             name={card.name}
                             link={card.link}
                             likes={card.likes}
-                            onCardClick={onCardClick}/>
+                            onCardClick={onCardClick}
+                        />
                     ))}
                 </ul>
             </section>

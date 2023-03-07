@@ -8,7 +8,7 @@ function PopupWithForm({name, title, children, buttonText, isOpen, onClose}) {
                 <form className="popup__form" name={name}>
                     <h2 className="popup__title">{title}</h2>
                     {children}
-                    <button className="popup__save-button pointer" type="submit">{buttonText}</button>
+                    <button className="popup__save-button pointer" type="submit">{buttonText || 'Сохранить'}</button>
                 </form>
             </div>
         </div>
