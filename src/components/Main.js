@@ -47,12 +47,12 @@ function Main({onEditProfile, onAddPlace, onEditAvatar, onCardClick}) {
                     <h1 className="profile__name">{userName}</h1>
                     <button className="profile__edit-button pointer" type="button" onClick={() => {
                         onEditProfile(true)
-                    }}></button>
+                    }}/>
                     <p className="profile__job">{userDescription}</p>
                 </div>
                 <button className="profile__add-button pointer" type="button" onClick={() => {
                     onAddPlace(true)
-                }}></button>
+                }}/>
             </section>
             <section className="cards" aria-label="Фотокарточки различных уголков планеты">
                 <ul className="cards__list">
